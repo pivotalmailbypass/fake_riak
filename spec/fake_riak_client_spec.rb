@@ -65,4 +65,13 @@ describe FakeRiakClient do
       riak2.get("key").should =~ [value]
     end
   end
+#  describe "Database storage" do
+#    before do
+#      my_db_connection = "MAKE_ONE"
+#      @riak = FakeRiakClient::DatabaseStorage.new(my_db_connection)
+#    end
+#    it_behaves_like "a key-value store"
+#
+#
+#  end
 end
