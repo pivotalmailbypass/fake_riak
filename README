@@ -1,0 +1,1 @@
+Fake version of riak used for testing purposes. Includes, memory, file and DB stores.
